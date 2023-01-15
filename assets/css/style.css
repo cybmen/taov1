@@ -22,7 +22,10 @@ Project: WhizCyber
 
 body {
   font-family: 'Titillium Web', sans-serif;
+  scroll-behavior: smooth;
+
 }
+
 :root {
   --e-global-color-primary: #242b44;
   --e-global-color-secondary: #ffffff;
@@ -2371,3 +2374,40 @@ a {
   transition: ease-in-out 0.3s;
   border: 1px solid var(--e-global-color-hover);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.top {  
+  position: fixed;
+  right: 20px;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  
+  /* visual styling */
+  width:45px;
+  aspect-ratio:1;
+  background:#4BAA6C;
+  border-radius:10px;
+  z-index: 999;
+}
+
+.top:before {
+  content:"";
+  position:absolute;
+  inset:30%;
+  transform:translateY(20%) rotate(-45deg);
+  border-top:5px solid #fff;
+  border-right:5px solid #fff;
+}
+
+

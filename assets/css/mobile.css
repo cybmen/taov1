@@ -2655,3 +2655,28 @@ h6 {
   margin-bottom: 10px;
 }
 }
+
+
+.top {  
+  position: fixed;
+  right: 0px;
+  bottom: 10px;      
+  place-self: end;
+  
+  /* visual styling */
+  width:45px;
+  aspect-ratio:1;
+  background:#4BAA6C;
+  border-radius:10px;
+  z-index: 999;
+}
+
+.top:before {
+  content:"";
+  position:absolute;
+  inset:30%;
+  transform:translateY(20%) rotate(-45deg);
+  border-top:5px solid #fff;
+  border-right:5px solid #fff;
+}
+
