@@ -1408,6 +1408,15 @@ a {
   transition: ease-in-out 0.3s;
   border: 1px solid var(--e-global-color-hover);
 }
+
+.form-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.special-button {
+  background-color: #518663;
+}
 .contact-us-form::after {
   background: url(../images/section2-after-img.png);
   content: "";
