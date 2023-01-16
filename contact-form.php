@@ -7,10 +7,9 @@ $comments=$_POST['comments'];
 if(isset($name) && isset($phone) && isset($emailHelp))
 {
 	global $to_email,$vpb_message_body,$headers;
-	$to_email="qasim@akdesigner.com";
+	$to_email="taotechnologyllc@gmail.com";
 	// $email_subject="Inquiry From Contact Page";
-	$vpb_message_body = nl2br("Dear Admin,\n
-	The user whose detail is shown below has sent this message from ".$_SERVER['HTTP_HOST']." dated ".date('d-m-Y').".\n
+	$vpb_message_body = nl2br("...".$_SERVER['HTTP_HOST']." dated ".date('d-m-Y').".\n
 	
 	name: ".$name."\n
 	Email Address: ".$emailHelp."\n
@@ -29,13 +28,13 @@ if(isset($name) && isset($phone) && isset($emailHelp))
 		{
 			  $status='Success';
 			//Displays the success message when email message is sent
-			  $output="Congrats ".$name.", your email message has been sent successfully! We will get back to you as soon as possible. Thanks.";
+			  $output="Thanks ".$name.", your email message has been sent successfully! We will get back to you as soon as possible. TAO Technology Team.";
 		} 
 		else 
 		{
 			 $status='error';
 			 //Displays an error message when email sending fails
-			  $output="Sorry, your email could not be sent at the moment. Please try again or contact this website admin to report this error message if the problem persist. Thanks.";
+			  $output="Sorry, there is a problem. Please try later. Thanks.";
 		}
 		
 }
@@ -43,7 +42,7 @@ else{
 
 	echo $name;
 	$status='error';
-	$output="please fill require fields";
+	$output="please fill required fields";
 	
 	}
 echo json_encode(array('status'=> $status, 'msg'=>$output));

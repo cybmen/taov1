@@ -190,7 +190,7 @@ a {
 .home-header-section .main-header .navbar-brand {
   margin-left: 0px;
   padding-bottom:0px;
-  margin-right: 181px;
+  margin-right: 160px;
 }
 .logo-eng {
   height: 60px;
@@ -412,7 +412,8 @@ a {
 
 .first-image {
   width: 500px;
-  margin-left: 50px;
+  margin-left: 100px;
+  margin-top: 20px;
 }
 
 /* our-services-section */
@@ -643,8 +644,20 @@ a {
   position: relative;
 }
 .about-us-section .about-content-img .about-section-f1{
-  top: -24px;
   left: -38px;
+}
+.about-us-section .about-content-img .about-section-f1 img
+{
+  border-radius: 20px;
+  width: 420px;
+}
+.about-us-section .about-content-img .about-section-f3 img
+{
+  border-radius: 20px;
+  width: 400px;
+}
+.about-us-section .about-content-img .about-section-f3 img{
+  border-radius: 20px;
 }
 .about-us-section .about-content-img .about-section-f2{
   left: 353px;
@@ -1403,6 +1416,7 @@ a {
   /* text-transform: uppercase; */
   transition: all ease-in-out 0.3s;
   border: 1px solid var(--e-global-color-accent);
+  position: relative;
 }
 .contact-us-form .contact-us-wrapper .form-btn button:hover{
   transform: translateY(-5px);
@@ -2380,7 +2394,10 @@ a {
 
 
 
-
+::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  display: none;
+}
 
 
 
@@ -2388,7 +2405,7 @@ a {
 
 .top {  
   position: fixed;
-  right: 20px;
+  right: 0px;
   bottom: 20px;      
   margin-right:10px; 
   place-self: end;
