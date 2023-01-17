@@ -675,7 +675,15 @@ a {
   left: -41%;
   top: -385px;
 }
-
+.about-us-section::after {
+  background: url(../images/about-right-backround.png);
+  content: "";
+  width: 445px;
+  height: 405px;
+  position: absolute;
+  right: -77px;
+  top: -136px;
+}
 /* Animation properties */
 .star {
   animation: star 10s ease-out infinite;
@@ -1694,17 +1702,7 @@ a {
 .home-header-section .sub-banner-section .banner-btn .arrow-angles{
   margin: 0 12px;
 }
-.home-header-section .sub-banner-section .sub-banner-outer:before {
-  background: url(../images/about-page-img.png);
-  content: "";
-  width: 534px;
-  height: 204px;
-  position: absolute;
-  top: -3px;
-  left:7px;
-  right: 0;
-  margin: 0 auto;
-}
+
 .home-header-section .sub-banner-section {
   padding-top: 111px;
   padding-bottom: 127px;

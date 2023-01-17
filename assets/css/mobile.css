@@ -517,6 +517,7 @@ h1 {
 .home-header-section .main-header .navbar-collapse .navbar-nav li {
   margin: 0 9px;
 }
+
 }
 @media screen and (max-width: 1199px) {
 .home-header-section .banner-right-img {
@@ -1910,7 +1911,6 @@ h4 {
 /* pricing-section */
 .pricing-plan-section .services-content {
   padding: 35px 3px 48px 13px;
-  height: 600px;
 }
 .pricing-plan-section .list-span {
   font-size: 16px;
@@ -2030,6 +2030,7 @@ h4 {
 .home-header-section .sub-banner-section {
   padding-top: 60px;
   padding-bottom: 60px;
+  height: 50vh;
 }
 h1 {
   font-size: 44px;
@@ -2194,24 +2195,6 @@ h6 {
 }
 
 @media screen and (max-width: 575px) {
-
-  
-.top {  
-  position: fixed;
-  right: 0px;
-  bottom: 20px;      
-  margin-right:20px; 
-  place-self: end;
-  
-  /* visual styling */
-  width:45px;
-  aspect-ratio:1;
-  background:#4BAA6C;
-  border-radius:10px;
-  z-index: 999;
-}
-
-
 .home-banner-section .banner-container-box .home-banner-text h1 {
   padding: 0 6px;
   font-size: 34px;
@@ -2683,7 +2666,17 @@ h6 {
 }
 
 
-
+.top {  
+  position: fixed;
+  right: 0px;
+  bottom: 10px;      
+  place-self: end;
+  width:45px;
+  aspect-ratio:1;
+  background:#4BAA6C;
+  border-radius:10px;
+  z-index: 999;
+}
 
 .top:before {
   content:"";
