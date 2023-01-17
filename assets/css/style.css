@@ -2419,3 +2419,8 @@ a {
 }
 
 
+
+#fb-root {
+ position:absolute;
+ right: 0px;
+}
