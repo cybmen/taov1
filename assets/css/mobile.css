@@ -2663,7 +2663,7 @@ h6 {
 .comment-form-section .form-group label:not(.error) {
   margin-bottom: 10px;
 }
-}
+
 
 
 .top {  
@@ -2688,3 +2688,8 @@ h6 {
 }
 
 
+.pricing-correction {
+  height: 600px;
+}
+
+}

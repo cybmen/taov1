@@ -912,6 +912,16 @@ a {
   background: var(--e-global-color-dark-blue);
   padding: 130px 0 82px;
 }
+
+.pricing-correction {
+  height: 650px;
+}
+
+.button-correction {
+  position: relative;
+  bottom: -70px;
+}
+
 .pricing-plan-section h6 {
   text-align: center;
   color: var(--e-global-color-accent);
@@ -1706,7 +1716,6 @@ a {
 .home-header-section .sub-banner-section {
   padding-top: 111px;
   padding-bottom: 127px;
-  height: 90vh;
 }
 .home-header-section .sub-banner-section .sub-banner-outer{
   padding-right: 33px;
@@ -2421,7 +2430,7 @@ a {
 
 
 .fb_dialog.fb_dialog_advanced iframe {
-  right: -5px !important;
+  right: -7px !important;
   bottom: 60px !important;
 }
 
