@@ -675,15 +675,7 @@ a {
   left: -41%;
   top: -385px;
 }
-.about-us-section::after {
-  background: url(../images/about-right-backround.png);
-  content: "";
-  width: 445px;
-  height: 405px;
-  position: absolute;
-  right: -77px;
-  top: -136px;
-}
+
 /* Animation properties */
 .star {
   animation: star 10s ease-out infinite;
@@ -968,7 +960,6 @@ a {
   transition: ease-in-out 0.3s;
   position: relative;
   border: 2px solid var(--e-global-color-dark-blue3);
-  height: 650px;
 }
 .pricing-plan-section .services-content:hover {
   border: 2px solid var(--e-global-color-accent);
@@ -1716,6 +1707,7 @@ a {
 }
 .home-header-section .sub-banner-section {
   padding-top: 111px;
+  padding-bottom: 127px;
   height: 90vh;
 }
 .home-header-section .sub-banner-section .sub-banner-outer{
@@ -2406,9 +2398,9 @@ a {
 
 .top {  
   position: fixed;
-  right: 20px;
+  right: 0px;
   bottom: 20px;      
-  margin-right:20px; 
+  margin-right:10px; 
   place-self: end;
   
   /* visual styling */

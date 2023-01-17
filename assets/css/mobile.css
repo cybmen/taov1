@@ -2195,13 +2195,6 @@ h6 {
 
 @media screen and (max-width: 575px) {
 
- #fb-root {
-  right: 0px;
- }
-{
-  position: absolute;
-  right: 0px;
-}
   
 .top {  
   position: fixed;
