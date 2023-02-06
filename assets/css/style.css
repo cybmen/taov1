@@ -23,7 +23,8 @@ Project: WhizCyber
 body {
   font-family: 'Titillium Web', sans-serif;
   scroll-behavior: smooth;
-
+  max-width: 2000px;
+  margin: auto;
 }
 
 :root {
@@ -45,6 +46,7 @@ body {
 }
 html {
   scroll-behavior: smooth;
+  background-color: var(--e-global-color-dark-blue);
 }
 
 
@@ -178,23 +180,21 @@ a {
   bottom: 105px;
   right: -353px;
 }
-.home-header-section:before {
-  background: url(../images//header-left-circle-img.png);
-  content: "";
-  width: 445px;
-  height: 445px;
-  position: absolute;
-  top: -180px;
-  left: -240px;
-}
+
 .home-header-section .main-header .navbar-brand {
   margin-left: 0px;
   padding-bottom:0px;
-  margin-right: 160px;
 }
-.logo-eng {
-  height: 60px;
+
+.navbar-brand img {
+width: 200px;
 }
+
+.logo-eng{
+width: 200px;
+}
+
+
 .navbar-light .navbar-nav .nav-link {
   padding-left:8px;
   position: relative;
@@ -220,7 +220,7 @@ a {
 }
 
 .home-header-section  .main-header .navbar-collapse .btn-talk{
-  margin-left: 25px !important;
+  margin-left: 50px !important;
 }
 .banner-container-box .social-icons{
   z-index: 1;
@@ -307,7 +307,7 @@ a {
   background: var(--e-global-color-hover);
   line-height: 20px;
   color: var(--e-global-color-secondary);
-  padding: 18px 35px 17px 33px;
+  padding: 18px 25px ;
   display: inline-block;
   border-radius: 15px;
   font-weight: 600;
@@ -354,7 +354,6 @@ a {
   transition: ease-in-out 0.3s;
 }
 .home-banner-section .banner-container-box .banner-btn a:hover{
-  transform: translateY(-5px);
   background:var(--e-global-color-hover) !important;
   color: var(--e-global-color-secondary) ;
   transition: ease-in-out 0.3s;
@@ -967,6 +966,8 @@ a {
   line-height: 26px;
   color: var(--e-global-color-white-banner-text);
   font-weight: 600;
+  position:static;
+
 }
 .pricing-plan-section .services-content {
   background: var(--e-global-color-dark-blue3);
