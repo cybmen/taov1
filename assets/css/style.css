@@ -2431,7 +2431,7 @@ width: 200px;
 
 
 .fb_dialog.fb_dialog_advanced iframe {
-  right: -27px !important;
+  right: 5px !important;
   bottom: 60px !important;
 }
 
